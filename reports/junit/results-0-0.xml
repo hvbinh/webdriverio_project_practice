@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="1" failures="0" errors="0" skipped="0">
+  <testsuite name="login tc" timestamp="2025-06-18T23:12:04" time="5.227" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="login tc"/>
+      <property name="capabilities" value="chrome.137_0_7151_104.mac"/>
+      <property name="file" value="file://./test/specs/logintc1.ts"/>
+    </properties>
+    <testcase classname="chrome.137_0_7151_104.mac.login_tc" name="tests login tc" time="5.225">
+      <system-out><![CDATA[
+COMMAND: GET /session/333e363038806ec4ec4e1f59eb4d55dc/url - {}
+RESULT: {}
+COMMAND: POST /session/333e363038806ec4ec4e1f59eb4d55dc/element/f.147C81B29947FD5667EC5125A86E398E.d.B13BCAD22097A95AF85FCC35F62C0516.e.4/click - {}
+RESULT: {}
+COMMAND: POST /session/333e363038806ec4ec4e1f59eb4d55dc/element/f.147C81B29947FD5667EC5125A86E398E.d.B13BCAD22097A95AF85FCC35F62C0516.e.4/clear - {}
+RESULT: {}
+COMMAND: POST /session/333e363038806ec4ec4e1f59eb4d55dc/element/f.147C81B29947FD5667EC5125A86E398E.d.B13BCAD22097A95AF85FCC35F62C0516.e.4/value - {"text":"tomsmith"}
+RESULT: {"text":"tomsmith"}
+COMMAND: POST /session/333e363038806ec4ec4e1f59eb4d55dc/element/f.147C81B29947FD5667EC5125A86E398E.d.B13BCAD22097A95AF85FCC35F62C0516.e.5/click - {}
+RESULT: {}
+COMMAND: POST /session/333e363038806ec4ec4e1f59eb4d55dc/element/f.147C81B29947FD5667EC5125A86E398E.d.B13BCAD22097A95AF85FCC35F62C0516.e.5/clear - {}
+RESULT: {}
+COMMAND: POST /session/333e363038806ec4ec4e1f59eb4d55dc/element/f.147C81B29947FD5667EC5125A86E398E.d.B13BCAD22097A95AF85FCC35F62C0516.e.5/value - {"text":"SuperSecretPassword!"}
+RESULT: {"text":"SuperSecretPassword!"}
+COMMAND: POST /session/333e363038806ec4ec4e1f59eb4d55dc/element/f.147C81B29947FD5667EC5125A86E398E.d.B13BCAD22097A95AF85FCC35F62C0516.e.6/click - {}
+RESULT: {}
+COMMAND: GET /session/333e363038806ec4ec4e1f59eb4d55dc/url - {}
+RESULT: {}
+COMMAND: GET /session/333e363038806ec4ec4e1f59eb4d55dc/url - {}
+RESULT: {}
+COMMAND: POST /session/333e363038806ec4ec4e1f59eb4d55dc/element/f.147C81B29947FD5667EC5125A86E398E.d.4BBF95C1EE178BF091808C6B1AD01C4F.e.13/click - {}
+RESULT: {}
+COMMAND: GET /session/333e363038806ec4ec4e1f59eb4d55dc/url - {}
+RESULT: {}
+COMMAND: DELETE /session/333e363038806ec4ec4e1f59eb4d55dc - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
