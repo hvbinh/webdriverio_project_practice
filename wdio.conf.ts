@@ -126,14 +126,14 @@ export const config: WebdriverIO.Config = {
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter
     reporters: [
-        //'spec',['allure', {outputDir: 'allure-results'}]
-        ['junit', {
-            outputDir: './reports/junit',
-            outputFileFormat: function (options) {
-              // optional: customize file name
-              return `results-${options.cid}.xml`
-            }
-          }]
+        'spec',['allure', {outputDir: 'allure-results'}]
+        // ['junit', {
+        //     outputDir: './reports/junit',
+        //     outputFileFormat: function (options) {
+        //       // optional: customize file name
+        //       return `results-${options.cid}.xml`
+        //     }
+        //   }]
     ],
 
     // Options to be passed to Mocha.
