@@ -67,9 +67,6 @@ describe('table example',function()
         const select = await $("[class='select-wrap -pageSizeOptions']>select");
         await select.selectByVisibleText("5 rows");
         await browser.pause(10000);
-
-
-    console.log();
         
     })
 }) 
